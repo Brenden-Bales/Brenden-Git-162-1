@@ -1,4 +1,4 @@
-# CIS Git Assignment
+# CS 16X Git Assignment
 
 # Project requires TWO functions:
 # 1. rect_area (length, width) which will return the area of a rectangle
