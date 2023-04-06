@@ -5,8 +5,11 @@
 # 2. rect_solid_area (length, width, height) which will return the area of a solid rectangular object
 
 # The following four lines are just there to make the code work without errors until functions are added
-def rect_solid_area(x, y, z): # This function will return the area of a solid rectangular object
+def rect_solid_area(x, y, z):  # This function will return the area of a solid rectangular object
     return x * y * z
+
+def rect_area(x, y):  # This function will return the area of a rectangle
+    return x * y
 
 
 # Request the dimension of a solid rectangular object
