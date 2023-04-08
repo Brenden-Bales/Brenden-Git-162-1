@@ -1,21 +1,29 @@
-# CS 16X Git Assignment
 
-# Project requires TWO functions:
-# 1. rect_area (length, width) which will return the area of a rectangle
-# 2. rect_solid_area (length, width, height) which will return the area of a solid rectangular object
+input("welcome to the first python code of spring '23 cs162")
+print()
 
-# The following four lines are just there to make the code work without errors until functions are added
-def rect_solid_area(x, y, z):
-    return 1
-length = 1; width = 1; height = 1
-rect_solid_area (length, width, height)
 
-# Request the dimension of a solid rectangular object
-length = int(input("Enter the length of the the object as in integer: "))
-width = int(input("Enter the width of the the object as in integer: "))
-height = int(input("Enter the height of the the object as in integer: "))
+length = int(input("enter the length of the object as a positive integer: "))
+width = int(input("enter the width of the object as a positive integer: "))
+height = int(input("enter the height of the object as a positive integer: "))
+print()
 
-surface_area = rect_solid_area(length, width, height)
 
-print("Length = ", length, "Width = ", width, "Height = ", height)
-print("Total Surface Area = ", surface_area)
+def rect_solid_area(length, width, height):
+    area = length * width
+    print ("the area of your rectangle is: ", area)
+
+def surface_area(length, width, height):
+    surface_area = (2 * length * height) + (2 * length + width) + (2 * width * height)
+    return surface_area
+
+rect_solid_area(length, width, height)
+surface_area(length, width, height)
+
+
+print()
+print("length = ", length, "width = ", width, "height = ", height)
+print("total surface area = ", surface_area(length, width, height))
+
+## surface area = 2lh + 2lw + 2wh
+## volume = lwh
