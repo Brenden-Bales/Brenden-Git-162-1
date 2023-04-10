@@ -2,7 +2,7 @@ Functions Reuse Exercise
 
 Write a function named "rect_area" that computes the area of a rectangle. This function will take 2 parameters - length and width.
 
-Write a second function named "rect_surface_area" that calls the first function - "rect_area" - three times to compute the surface area of a rectangular solid.  This function will take three parameters - length, width and height.
+Write a second function named "rect_surface_area" that calls the first function - "rect_area" - to compute the surface area of a rectangular solid.  This function will take three parameters - length, width and height.
 
 The main program will call the "rect_surface_area" with three parameters length, width and height.
 
