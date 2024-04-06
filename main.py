@@ -1,4 +1,8 @@
-# CS 162
+"""
+Logan Chance
+CS 162
+4/6/2024
+"""
 
 # Project requires TWO functions:
 
