@@ -4,8 +4,6 @@ CS 162
 4/6/2024
 """
 
-# Project requires TWO functions:
-
 # Returns Area of Rectangle
 def rect_area(length, width):
     return length * width
