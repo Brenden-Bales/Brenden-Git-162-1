@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf52c438-aff7-43cf-a3d2-23f83827d591" name="Changes" comment="git remote add origin https://github.com/Lchance2/LChance-Git-Assignment.git&#10;git branch -M main&#10;git push -u origin main" />
+    <list default="true" id="cf52c438-aff7-43cf-a3d2-23f83827d591" name="Changes" comment="git remote add origin https://github.com/Lchance2/LChance-Git-Assignment.git&#10;git branch -M main&#10;git push -u origin main">
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,6 +59,7 @@
       <workItem from="1680806801402" duration="51000" />
       <workItem from="1712338792530" duration="162000" />
       <workItem from="1712338996379" duration="2986000" />
+      <workItem from="1712451427639" duration="25000" />
     </task>
     <task id="LOCAL-00001" summary="https://github.com/brookham/GitHub-assignment.git">
       <option name="closed" value="true" />
