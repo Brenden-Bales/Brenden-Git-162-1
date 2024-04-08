@@ -1,7 +1,11 @@
 #Function 1
-# Returns Area of Rectangle
+def rect_area(x, y):
+    area = x * y
+    return area
 
-#Function 2
+def rect_surface_area(l, w, h):
+    surface = (rect_area(l, w) + rect_area(w, h) + rect_area(l, h))*2
+    return surface
 # Returns Surface Area of Rectangular Solid
 # Request the dimension of a solid rectangular object
 
