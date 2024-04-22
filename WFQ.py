@@ -1,7 +1,13 @@
 # Open and set content equal to txt file in directory
-with open('input queue-1-1.txt', 'r') as file:
-    # Read the entire contents of the file
-    content = file.readlines()
+try:
+    with open('input queue-1-1.txt', 'r') as file:
+        # Read the entire contents of the file
+        content = file.readlines()
+except FileNotFoundError:
+    content = ["S Mary", "P Dee", "P Dee", "P Dee", "E Eileen", "E Mike", "E Joe", "P Dee",
+               "E Vicky", "E George", "P Dee", "P Joe", "E Sally", "P Joe", "S Pete", "P Dee",
+               "S Bill", "S Chase", "E Price", "P Dee", "E Sue"]
+
 
 # Initialize queues as lists
 premium_queue = []
